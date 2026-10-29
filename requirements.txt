@@ -2,5 +2,5 @@ argparse
 struct
 sys
 pathlib 
-numpy  
+NumPy  
 PIL 
