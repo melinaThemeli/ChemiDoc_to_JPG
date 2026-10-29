@@ -31,9 +31,9 @@ jobs:
           }
           python -m pip install pyinstaller
 
-      - name: Build standalone executable
+            - name: Build standalone executable
         run: |
-          python -m PyInstaller --noconfirm --clean --onefile --console --name CHEMIDOX CHEMIDOX.py
+          python -m PyInstaller --noconfirm --clean --onefile --console --collect-all numpy --name CHEMIDOX CHEMIDOX.py
 
       - name: Publish GitHub Release
         if: startsWith(github.ref, 'refs/tags/')
