@@ -1,5 +1,4 @@
 
-
 name: Build and release CHEMIDOX for Windows
 
 on:
@@ -42,4 +41,5 @@ jobs:
         with:
           files: dist/CHEMIDOX.exe
           generate_release_notes: true
+
 
