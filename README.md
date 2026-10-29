@@ -1,4 +1,6 @@
-ChemiDox.py is a script that converts Chemidoc files to JPG files. It produces 3 images: 1 with dark background, one with white (inverted) and the original picture.
-Libraries that have to be installed on python (PyCharm) are: numpy and pillow 
-To use copy the file's path from your desktop and paste it on script's parameters (Edit Config -> {path}
-Generated images will be uploaded on Chemidoc's original file
+ converts Chemidoc (.sc) files to JPG files. It produces 3 images: 1 with dark background, one with white  and a tiff file - note that generated images are inverted!!!
+Libraries are pre installed on v.1.0.5
+to use download Chemidox.exe and run the following command on Windows Powershell (assuming that it is located in Downloads:
+& "$HOME\Downloads\CHEMIDOX.exe" `
+  "file1's_path" ` "file2's_path"
+ Generated images are downloaded in file's respective folders
