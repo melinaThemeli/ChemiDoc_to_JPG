@@ -3,4 +3,4 @@ struct
 sys
 pathlib 
 NumPy  
-PIL 
+Pillow
